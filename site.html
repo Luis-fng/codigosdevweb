@@ -2,19 +2,54 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Perfil pessoal Luís Fernando Nogueira Goffredo</title>
+    <img src="imagem/scrapbook-neonplus-roxo.jpg" height="100" width="1520">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" </link>  
+    
+    <style>
+          body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Remover os marcadores da lista e espaçamentos padrão */
+        nav ul {
+            list-style-type: none; /* Remove os marcadores da lista */
+            padding: 0; /* Remove o espaçamento interno */
+            margin: 0; /* Remove a margem */
+        }
+
+        /* Tornar os itens da lista exibidos lado a lado */
+        nav ul li {
+            display: inline-block; /* Faz os itens aparecerem lado a lado */
+            margin-right: 20px; /* Espaçamento entre os links */
+            padding-right: 20px; /* Espaçamento para a borda não encostar no texto */
+            border-right: 2px solid #000; /* Adiciona a linha vertical entre os itens */
+        }
+
+        /* Remover a borda no último item */
+        nav ul li:last-child {
+            border-right: none; /* Remove a borda do último item */
+        }
+
+        /* Estilizar os links */
+        nav ul li a {
+            text-decoration: none; /* Remove o sublinhado do link */
+            color: #000; /* Cor do texto do link */
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Meu perfil</h1>
+        <h1>Home</h1>
     </header>
+    
     <nav>
         <ul>
-            <li><a href="meu perfil.html">Meu perfil</a></li>
+            <li><a href="meu perfil.html">Meu perfil pessoal</a></li>
             <li><a href="formação.html">Minha formação</a></li>
             <li><a href="experiencia.html">Minha expêriencia</a></li>
         </ul>
     </nav>
-    
 </body>
 </html>
